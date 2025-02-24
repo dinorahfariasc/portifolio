@@ -7,6 +7,8 @@
     <title>Portifolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueris.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
 </head>
 <body>
     <nav id="desktop-nav">
@@ -40,22 +42,39 @@
     </nav>
     <section id="profile">
         <div class="section__pic-container">
-            <img src="./assets/profilepic.png" alt="Dinorah profile picture">
+            <img src="./assets/profile.jpeg" alt="Dinorah profile picture">
         </div>
-    </section>
-    <section class="section__text">
-        <p class="section__text__p1"> Hello, I'm</p>
-        <h1 class="title">Dinorah</h1>
-        <p class="section__text__p2">AI Developer</p>
-        <div class="btn-container">
-            <button class="btn btn-color-2" 
-            onclick="window.open('./assets/resume.pdf')">Donwload CV
-        </button>
-            <button class="btn btn-color-1" 
-            onclick="window.location.href='#contact'">Contact me
-        </button>
+        <div class="section__text">
+            <p class="section__text__p1"> Hello, I'm</p>
+            <h1 class="title">Dinorah Farias</h1>
+            <p class="section__text__p2">AI Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" 
+                onclick="window.open('./assets/CurriculoDinorah.pdf')">Donwload CV
+            </button>
+                <button class="btn btn-color-1" 
+                onclick="window.location.href='#contact'">Contact me
+            </button>
+            </div>
+            <div id="socials-container">
+                <i class="fa-brands fa-linkedin fa-2x" 
+                alt="My Linkedin Profile" 
+                onclick="location.href='https://www.linkedin.com/in/dinorahfariasc/'"
+                ></i>
+                <i class="fa-brands fa-github-square fa-2x" 
+                alt="My Github Profile" 
+                onclick="location.href='https://github.com/dinorahfariasc'"
+                ></i>
+                <!-- <i class="fa-brands fa-medium fa-2x" 
+                alt="My Github Profile" 
+                onclick="location.href='https://medium.com/@dinorahfarias'"
+                ></i>
+                <i class="fa-brands fa-letterboxd fa-2x" 
+                alt="My Github Profile" 
+                onclick="location.href='https://letterboxd.com/ctrldin/'"
+                ></i> -->
+            </div>
         </div>
-        <div id="socials-container"></div>
     </section>
     <script src="script.js">  
     </script>
