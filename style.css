@@ -254,3 +254,71 @@ section {
 .btn-container{
   gap: 1rem;
 }
+
+/* ABOUT ME */
+.section-container {
+  display: flex;
+  justify-content: center;  
+  text-align: left;        
+  gap: 50px;                
+  padding: 20px;    
+}
+
+.details-container a {
+  
+  
+  transition: color 0.3s ease-in-out;
+}
+
+.toggle-btn {
+  font-size: 20px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: rgb(85,85,85);
+  padding: 5px;
+}
+
+.more-info {
+  display: none; /* Inicialmente a seção está oculta */
+}
+
+
+/* SKILLS */
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.skill-card {
+  background-color: white;
+  color: rgb(53, 53, 53);
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+}
+
+.skill-card i {
+  font-size: 24px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.skill-card h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.skill-card p {
+  font-size: 14px;
+  color: #b0b0b0;
+}
+
+
