@@ -322,3 +322,105 @@ section {
 }
 
 
+
+/* LANG AND FRAMEWORKS */
+.langnframe {
+  text-align: center;
+  background-color: white;
+  color: #fff;
+  padding: 40px 20px;
+}
+
+.langnframe-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.langnframe-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 320px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: left;
+}
+
+.langnframe-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.langnframe-icon {
+  font-size: 32px;
+}
+
+.langnframe-text h3 {
+  font-size: 18px;
+  margin: 0;
+  color: rgb(53, 53,53);
+}
+
+.langnframe-subtitle {
+  font-size: 14px;
+  color: #9ca3af;
+  margin: 2px 0 8px;
+}
+
+.langnframe-description {
+  font-size: 14px;
+  color: #d1d5db;
+}
+
+
+
+/* EXPERIENCE*/
+/* Estilos gerais */
+.experience-section {
+  color: rgb(53, 53, 53);
+  padding: 50px 20px;
+  text-align: center;
+}
+
+/* Título da seção */
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+/* Estilos dos cards */
+.experience-card {
+  background: white;
+  color: rgb(53, 53, 53);
+  border-radius: 10px;
+  padding: 30px;
+  margin: 30px auto;
+  max-width: 600px;
+  text-align: left;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo dos títulos e textos dentro dos cards */
+.job-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.job-duration {
+  font-size: 0.9rem;
+  color: rgb(85,85,85);
+  margin-bottom: 10px;
+}
+
+.job-description {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.experience-card:hover{
+  transform: translateY(-5px);
+}
