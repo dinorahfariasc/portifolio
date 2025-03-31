@@ -33,7 +33,7 @@
             </div>
             <div class="menu-links">
                 <li><a href=#about onclick="toggleMenu()" >Sobre</a></li>
-                <li><a href=#langnframe onclick="toggleMenu()">LInguagens e Frameworks</a></li>
+                <li><a href=#langnframe onclick="toggleMenu()">Linguagens e Frameworks</a></li>
                 <li><a href=#experience onclick="toggleMenu()">Experiência</a></li>
                 <li><a href=#projects onclick="toggleMenu()">Projetos</a></li>
                 <li><a href=#contact onclick="toggleMenu()">Contato</a></li>
@@ -132,25 +132,102 @@
             </div>
         </div>
     </section>
-    <section class="langnframe">
+    <section id="langnframe">
         <h1 class="title"> Linguagens e Frameworks</h1>
+        <br>
         <div class="langnframe-container">
             <div class="langnframe-card">
                 <div class="langnframe-header">
-                    <i class="fa-brands fa-python langnframe-icon" style="color:#facc15;"></i>
+                    <i class="fa-brands fa-python langnframe-icon" style="color:#facc15; font-size:40px;"></i>
                     <div class="langnframe-text">
                         <h3>Python</h3>
-                        <p class="langnframe-subtitle">Data Science, Backend</p>
+                        <p class="langnframe-subtitle">IA, Machine learning e Ciência de dados</p>
                     </div>
                 </div>
                 <p class="langnframe-description">
-                    Developing machine learning models, automating tasks, and building APIs with Python.
+                    Desenvolvo aplicações de IA e ciência de dados,
+                    utilizando bibliotecas como Pandas, Scikit-learn e Numpy.
                 </p>
             </div>
     
             <div class="langnframe-card">
                 <div class="langnframe-header">
-                    <i class="fa-brands fa-js skill-icon" style="color:#f7df1e;"></i>
+                    <i class="fa-brands fa-php skill-icon" style="color:#5473b8; font-size:40px;"></i>
+                    <div class="langnframe-text">
+                        <h3>PHP</h3>
+                        <p class="langnframe-subtitle">Back-end</p>
+                    </div>
+                </div>
+                <p class="langnframe-description">
+                    Construo aplicações web com integração com bancos de dados 
+                    e otimização de desempenho para projetos back-end.
+                </p>
+            </div>
+            <div class="langnframe-card">
+                <div class="langnframe-header">
+                    <i class="fa-brands fa-laravel skill-icon" style="color:#fd4444; font-size:40px;"></i>
+                    <div class="langnframe-text">
+                        <h3>Laravel</h3>
+                        <p class="langnframe-subtitle">back-end</p>
+                    </div>
+                </div>
+                <p class="langnframe-description">
+                    Facilita o desenvolvimento de aplicações web com PHP, 
+                    usando ferramentas como o Blade, Artisan e Eloquent ORM.
+                </p>
+            </div>
+            <div class="langnframe-card">
+                <div class="langnframe-header">
+                    <i class="fa-brands fa-react skill-icon" style="color:#61dafb; font-size:40px;"></i>
+                    <div class="langnframe-text">
+                        <h3>React.js</h3>
+                        <p class="langnframe-subtitle">Frontend</p>
+                    </div>
+                </div>
+                <p class="langnframe-description">
+                    Crio interfaces de usuário dinâmicas com arquitetura baseada em componentes.
+                </p>
+            </div>
+            <div class="langnframe-card">
+                <div class="langnframe-header">
+                    <img src="assets/icons/LangchainGrey.svg" alt="LangChain icon" width="50"></i>
+                    <div class="langnframe-text">
+                        <h3>LangChain</h3>
+                        <p class="langnframe-subtitle">Agentes de IA</p>
+                    </div>
+                </div>
+                <p class="langnframe-description">
+                    Com o LangChain para o encadeamento de LLMs,
+                    desenvolvo agentes de IA para automatizar tarefas e melhorar a eficiência.
+                </p>
+            </div>
+            <div class="langnframe-card">
+                <div class="langnframe-header">
+                    <img src="assets/icons/hf-logo.svg" alt="HuggingFace icon" width="50"></i>
+                    <div class="langnframe-text">
+                        <h3>HuggingFace</h3>
+                        <p class="langnframe-subtitle">Modelos de LLM</p>
+                    </div>
+                </div>
+                <p class="langnframe-description">
+                    Uso o HuggingFace para acessar e usar LLM em projetos que usem PLN.
+                </p>
+            </div>
+            <div class="langnframe-card">
+                <div class="langnframe-header">
+                    <img src="assets/icons/postgresql.svg" alt="PostgreSQL icon" width="40"></i>
+                    <div class="langnframe-text">
+                        <h3>PostgreSQL</h3>
+                        <p class="langnframe-subtitle">Banco de Dados</p>
+                    </div>
+                </div>
+                <p class="langnframe-description">
+                    Building interactive web applications and enhancing frontend functionality.
+                </p>
+            </div>
+            <div class="langnframe-card">
+                <div class="langnframe-header">
+                    <i class="fa-brands fa-js skill-icon" style="color:#f7df1e; font-size:40px;"></i>
                     <div class="langnframe-text">
                         <h3>JavaScript</h3>
                         <p class="langnframe-subtitle">Web Development</p>
@@ -160,24 +237,33 @@
                     Building interactive web applications and enhancing frontend functionality.
                 </p>
             </div>
-    
             <div class="langnframe-card">
                 <div class="langnframe-header">
-                    <i class="fa-brands fa-react skill-icon" style="color:#61dafb;"></i>
+                    <img src="assets/icons/cpp.svg" alt="Cpp icon" width="40"></i>
                     <div class="langnframe-text">
-                        <h3>React.js</h3>
-                        <p class="langnframe-subtitle">Frontend, UI/UX</p>
+                        <h3>C++</h3>
+                        <p class="langnframe-subtitle">Web Development</p>
                     </div>
                 </div>
                 <p class="langnframe-description">
-                    Creating dynamic user interfaces with component-based architecture.
+                    Building interactive web applications and enhancing frontend functionality.
                 </p>
             </div>
         </div> 
+        </div> 
     </section>
+
+
     <section id="experience" class="experience-section">
-        <h2 class="section-title">Experiência</h2>
-        
+        <h2 class="title">Experiência</h2>
+        <div class="experience-card">
+            <h3 class="job-title">Projeto de Iniciação Científica</h3>
+            <p class="job-duration">Voluntária</p>
+            <p class="job-description">
+                Desenvolvimento de um sistema de notificações de risco de desastres naturais, 
+                utilizando análise de dados e tecnologias web para comunicação eficiente das informações.
+            </p>
+        </div>
         <div class="experience-card">
             <h3 class="job-title">Bolsista - Desenvolvedora Web</h3>
             <p class="job-duration">Outubro de 2024 - Presente</p>
@@ -187,15 +273,7 @@
                 manutenção e otimização de sistemas legados.
             </p>
         </div>
-    
-        <div class="experience-card">
-            <h3 class="job-title">Projeto de Iniciação Científica</h3>
-            <p class="job-duration">Voluntária</p>
-            <p class="job-description">
-                Desenvolvimento de um sistema de notificações de risco de desastres naturais, 
-                utilizando análise de dados e tecnologias web para comunicação eficiente das informações.
-            </p>
-        </div>
+
     </section>
     
 
